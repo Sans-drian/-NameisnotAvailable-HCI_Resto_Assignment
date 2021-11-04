@@ -43,11 +43,11 @@
 /* .header-list li {
 } */
 
+/* Menus button */
 .menu {
     display: flex;
     justify-content: space-evenly;
 }
-
 .button1 {
     background-color: #4CAF50;
     border-radius: 8px;
@@ -121,13 +121,17 @@
     transform: translateY(4px);
 }
 
-.beverages {
+/* Maincourses button */
+.maincourses {
     width: 225px;
     height: 225px;
     background-image: url(icecream.jpeg);
     border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
-.beverages div {
+.maincourses p {
     color: rgb(50, 50, 50);
     font-size: 30px;
     font-family: sans-serif;
@@ -135,8 +139,10 @@
     height: 225px;
     border-radius: 8px;
     text-align: center;
+    display: table-cell;
+    vertical-align: middle
 }
-.beverages div:hover {
+.maincourses p:hover {
     background-color: white;
     color: #4CAF50;
     opacity: 0.2;
@@ -144,7 +150,109 @@
     width: 225px;
     height: 225px;
 }
-.beverages div:active {
+.maincourses p:active {
+    background-color: #3e8e41;
+    color: white;
+}
+
+/* Sidedishes button */
+.sidedishes {
+    width: 225px;
+    height: 225px;
+    background-image: url(icecream.jpeg);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.sidedishes p {
+    color: rgb(50, 50, 50);
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 225px;
+    height: 225px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.sidedishes p:hover {
+    background-color: white;
+    color: #4CAF50;
+    opacity: 0.2;
+    border: 2px solid #4CAF50;
+    width: 225px;
+    height: 225px;
+}
+.sidedishes p:active {
+    background-color: #3e8e41;
+    color: white;
+}
+
+/* Beverages button */
+.beverages {
+    width: 225px;
+    height: 225px;
+    background-image: url(icecream.jpeg);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.beverages p {
+    color: rgb(50, 50, 50);
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 225px;
+    height: 225px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.beverages p:hover {
+    background-color: white;
+    color: #4CAF50;
+    opacity: 0.2;
+    border: 2px solid #4CAF50;
+    width: 225px;
+    height: 225px;
+}
+.beverages p:active {
+    background-color: #3e8e41;
+    color: white;
+}
+
+/* Desserts button */
+.desserts {
+    width: 225px;
+    height: 225px;
+    background-image: url(icecream.jpeg);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.desserts p {
+    color: rgb(50, 50, 50);
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 225px;
+    height: 225px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.desserts p:hover {
+    background-color: white;
+    color: #4CAF50;
+    opacity: 0.2;
+    border: 2px solid #4CAF50;
+    width: 225px;
+    height: 225px;
+}
+.desserts p:active {
     background-color: #3e8e41;
     color: white;
 }
